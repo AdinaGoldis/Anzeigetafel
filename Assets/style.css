@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Lato:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #E5E5E5;
+    }
+
+ h2 {
+    font-family: "Orbitron";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 46px;
+    
+    color: #FFFFFF;
+}
+.inner {
+    width: 415px;
+    height: 415px;
+    left: 192px;
+    top: 160px;
+    background: #000000;
+    border-radius: 30px;
+    position: relative;
+    
+}
+
+.counterHome div {
+    background-color: transparent;
+    width: 489px;
+    height: 489px;
+    left: 155px;
+    top: 123px; 
+    border: 5px solid #97F5BB;
+    box-sizing: border-box;
+    border-radius: 40px;
+    float: left;
+    text-align: center;
+    padding: 37px;
+ }  
+ 
+ .counterAway div {
+    background-color: transparent;
+    width: 489px;
+    height: 489px;
+    left: 794px;
+    top: 123px;
+    border: 5px solid #525DF4;
+    box-sizing: border-box;
+    border-radius: 40px;
+    float: right;
+    text-align: center;
+    padding: 37px;
+ }
+ .inner :first-child{
+    position: absolute;
+    background-color: white;
+    width: 122px;
+    height: 39px;
+    left: 659px;
+    top: 936px;
+ }
+
+ .reset {
+    position: absolute;
+    width: 122px;
+    height: 39px;
+    left: 659px;
+    top: 936px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2C2C2C;
+    padding: 41px, 10px, 41px, 10px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+ }
+  section button{
+    font-family: "Lato";
+    font-size: 37px;
+    color: white;
+    width: 105px;
+    height: 105px;
+    left: 220px;
+    top: 749px;
+    background: #97F5BB;
+    border-radius: 20px;
+   
+ } 
+
+section.buttonsHome button {
+    
+    background: #97F5BB;
+    
+}
+section.buttonsAway button {
+    
+    background: #525DF4;
+    
+}
